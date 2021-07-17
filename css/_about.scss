@@ -1,0 +1,57 @@
+.about{
+    width:100%;
+    background-image: url('../images/about-bg.png');
+    background-size: cover;
+    background-position: center;
+    padding:70px 6% 150px 6%;
+
+    .about-parts{
+        margin-top: 40px;
+
+        .left-part{
+            width:47%;
+            
+            img{
+                width:100%;
+            }
+        }
+
+        .right-part{
+            width:50%;
+            padding: 150px 1rem 0 1rem;
+
+            h3{
+                font-size: 2.8rem;
+                color:#666;
+            }
+
+            p{
+                font-size: 1.2rem;
+                color: #333;
+                padding-top:20px;
+                line-height: 28px;
+            }
+
+            .bottom{
+                padding-bottom: 30px;
+            }
+
+            .buttons{
+
+                .about-btn{
+                    padding:0.9rem 2rem;
+                }
+
+                a:last-child{
+                    margin-left: 15px;
+
+                }
+
+                .icon{
+                    font-size: 1.6rem;
+                    padding-right: 10px;
+                }
+            }
+        }
+    }
+}

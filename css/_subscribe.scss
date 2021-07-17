@@ -1,0 +1,79 @@
+.newsletter{
+    width:100%;
+    height: auto;
+    background-image: url('../images/subscribe-bg.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding:50px 0;
+
+    .center-content{
+        width:40%;
+        margin: 0 auto;
+        text-align: center;
+        padding:30px 1rem;
+
+        h3{
+           color:#fff;
+           font-size: 2.5rem;
+           text-transform: uppercase;
+        }
+
+        p{
+            color: #fff;
+            padding:15px 0 25px 0;
+            line-height: 28px;
+            font-size: 1.2rem;
+        }
+
+        form{
+            position: relative;
+
+            .input{
+                width:100%;
+                height: 65px;
+                border-radius: 45px;
+                border:2px solid #fff;
+                background:none;
+                padding-left: 20px;
+                color:#fff;
+                font-size: 1.1rem;
+            }
+
+            ::placeholder{
+                padding-left: 20px;
+                font-size: 1.3rem;
+                color: #eee;
+            }
+
+            .input:focus{
+                outline: none;
+            }
+
+            .button{
+                position: absolute;
+                top:7px;
+                right:20px;
+                background-color: #fff;
+                color: #333;
+                padding: 10px 40px;
+                border-radius: 20px;
+                cursor: pointer;
+                border:none;
+                font-size: 1.4rem;
+                transition: .4s linear;
+            }
+
+            .button:hover{
+                background: $gradient;
+                color: #fff;
+            }
+            
+        }
+    }
+}
+
+
+
+
+
+

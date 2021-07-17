@@ -1,0 +1,72 @@
+.pricing{
+    padding-top:70px;
+
+    .pricing-box{
+        padding: 40px 1rem 0 1rem;
+
+        .pricing-content{
+            width:32%;
+            text-align: center;
+            background-color: #fff;
+            border-radius: 15px;
+            box-shadow:0 3px 15px rgba(0,0,0,0.2);
+            padding:40px 0 50px 0;
+            cursor: pointer;
+
+            .title{
+                color:$purple;
+                font-size: 2.2rem;
+            }
+
+            h4{
+               padding:10px 0;
+               font-size: 1.2rem;
+               color:$pink;
+            }
+
+            .dolor{
+                 font-size: 2.5rem;
+            }
+
+            ul{
+                margin-bottom: 30px;
+
+                li{
+                  font-size: 1.3rem;
+                  color: #666;
+                  line-height: 40px;
+                  font-weight: bold;
+                }
+
+                .green{
+                   color:lightgreen;
+                   font-size: 1.5rem;
+                   padding-right: 5px;
+                }
+
+                .red{
+                   color:tomato;
+                   font-size: 1.5rem;
+                   padding-right: 5px;
+                }
+            }
+
+            .pricing-btn{
+                padding:0.7rem 2rem;
+            }
+
+        }
+
+        .second-border{
+            border:2px solid $pink;
+        }
+
+        .pricing-content:hover{
+            border:2px solid $pink;
+        }
+
+        
+    }
+
+}
+

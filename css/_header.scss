@@ -1,0 +1,52 @@
+.header{
+    position: fixed;
+    top:0;
+    left:0;
+    width:100%;
+    background-color: #fff;
+    box-shadow: 0 3px 10px rgba(0,0,0,0.1);
+    padding:0 6%;
+    z-index: 1;
+
+    .nav{
+
+        .logo{
+            font-size: 2.5rem;
+            color: $purple;
+            padding: 0.7rem 0;
+        }
+       
+        .color-change{
+            color: $pink;
+        }
+
+        input{
+            display: none;
+        }
+
+        label{
+            font-size: 2rem;
+            color: $purple;
+            cursor: pointer;
+            padding-top: 1.7rem;
+            visibility: hidden;
+            opacity: 0;
+        }
+
+        ul{
+
+            li{
+               padding: 1.4rem 0 0 1.5rem;
+               font-size: 1.5rem;
+            }
+
+            a{
+                color:$purple;
+            }
+
+            a:hover{
+                color:$pink;
+            }
+        }
+    }
+}

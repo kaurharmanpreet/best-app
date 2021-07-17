@@ -1,0 +1,52 @@
+.feature{
+    padding-top: 100px;
+
+    .box-container{
+        padding: 10px 1.5rem 80px 1.5rem;
+        overflow:hidden;
+
+        :nth-child(2){
+            transform: scale(1.1);
+        }
+
+        .box{
+            width:30%;
+            padding: 3rem 1rem;
+            margin-top: 50px;
+            background: #fff;
+            border-radius: 15px;
+            border:0.3px solid rgba(0,0,0,.2);
+            box-shadow: 0 4px 15px rgba(0,0,0, .4);
+            text-align: center;
+            transition: .5s linear;
+
+            image{
+                height: 200px;
+
+                img{
+                    height: 100%;
+                }
+            }
+        
+            h3{
+               font-size: 1.8rem;
+               color: #333;
+               padding-top: 20px;
+            }
+
+            p{
+               padding: 12px 0 20px 0;
+               color: #666;
+               font-size: 1.2rem;
+            }
+
+            .feature-btn{
+                padding:0.8rem 1.5rem;
+            }
+        }
+
+        .box:hover{
+            transform: scale(1.1);
+        }
+    }
+}
